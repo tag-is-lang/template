@@ -1,2 +1,2 @@
 # template
-template repo for my website
+the abstraction game web site template 
