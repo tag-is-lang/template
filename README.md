@@ -1,2 +1,2 @@
 # template
-the abstraction game web site template 
+the abstraction game website template 
