@@ -10,7 +10,11 @@ $text-color:            #bbbbbb !default;
 $background-color:      #181818 !default;
 $code-background-color: #212121 !default;
 
-$link-base-color:       #3079EC !default;
+$tag-red:               #FF031D !default;
+$tag-blue:              #3079EC !default;
+$tag-yellow:            #E0ED36 !default;
+
+$link-base-color:       $tag-blue !default;
 $link-visited-color:    $link-base-color !default;
 $link-hover-color:      $text-color !default;
 
@@ -24,6 +28,9 @@ $table-header-bg-color: lighten($background-color, 10%) !default;
 $table-header-border:   lighten($background-color, 21%) !default;
 $table-border-color:    $border-color-01 !default;
 
+h1, h2, h3, h4, h5, h6 {
+  color: $tag-yellow
+}
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
 // List of tokens: https://github.com/rouge-ruby/rouge/wiki/List-of-tokens
