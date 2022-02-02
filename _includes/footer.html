@@ -1,4 +1,4 @@
-<footer class="site-footer h-card external">
+<footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
@@ -15,15 +15,15 @@
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
+            <li class="p-name external">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <li><a class="u-email external" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
       {%- endif %}
       </div>
-      <div class="footer-col">
+      <div class="footer-col external">
         <p>{{ site.description | escape }}</p>
         <p><a href="https://github.com/tag-lang/template/edit/master/README.md">edit this page</a></p>
         <!-- > TODO: edit link ^ </-->
