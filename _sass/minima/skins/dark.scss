@@ -33,7 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-list {
-   text-align: right
+  text-align: right
+}
+
+.meta {
+  color: $tag-red
 }
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
