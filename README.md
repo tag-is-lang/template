@@ -1,9 +1,6 @@
-# template
-the abstraction game website template 
-
 ## how to
 
-### new repo from template
+### make new repo from template
 
 1. create empty repo (on github)
 2. clone/copy this (template) repo locally
