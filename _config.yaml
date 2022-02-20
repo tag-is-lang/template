@@ -17,5 +17,5 @@ minima:
   social_links:
     github: tag-lang
 
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
