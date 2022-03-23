@@ -1,9 +1,9 @@
 title: tag-lang.org
 author: 
   name: Claudio Nicoli Pannacci
-  email: claudio.pannacci@protonmail.com
+  email: claudio.nicoli@pannac.ci
 description: > 
-  the abstraction game language
+  the abstraction game language website
 
 edit: https://github.com/tag-lang/template/edit/master/README.md 
 
@@ -16,6 +16,4 @@ minima:
   date_format: "%Y-%m-%-d"
   social_links:
     github: tag-lang
-
-# plugins:
-#   - jekyll-feed
+    patreon: kappanneo
